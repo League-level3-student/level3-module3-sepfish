@@ -26,7 +26,7 @@ public class TestCityTaxes {
 		assertEquals(1144412.80, cities.get(1).getAnnualTaxes(), 0.01);
 		//assertEquals(3896480.00, cities.get(2).getAnnualTaxes(), 0.01);
 		
-		//los angeles doesn't work :(
+		//los angeles won't work :(
 		assertEquals(945044.00, cities.get(3).getAnnualTaxes(), 0.01);
 	}
 
