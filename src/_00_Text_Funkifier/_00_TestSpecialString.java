@@ -38,6 +38,8 @@ public class _00_TestSpecialString {
 	//   the JUnitTest case below to test your customized Special String.
 	@Test
 	public void testCustomString() {
-	
+		SpecialString ts = new TereziString("This is also a test yet again");
+		System.out.println(ts);
+		assertEquals("TH1S 1S 4LSO 4 T3ST Y3T 4G41N", ts.toString());
 	}
 }
